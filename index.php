@@ -433,6 +433,6 @@ $cid = isset($res['cid']) ? $res['cid'] : null;
 <?php
   $sub1 = !empty($_GET['sub1']) ? $_GET['sub1'] : "";
 
-  header('Location: https://ressapp.club/?sub1='$sub1'')
+  header('Location: https://ressapp.club/?sub1='.$sub1.'')
 ?>
 <?php } ?>
